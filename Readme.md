@@ -1,10 +1,10 @@
-DB Protect extension
+DatabaseProtect extension
 =========================
 
 First, thanks a lot Bolt staff for creating Password Protect extension.
 This is just a fork of that extension so it can serve my own needs.
 
-The "DB Protect extension" is a small extension that allows you to 
+The "DatabaseProtect extension" is a small extension that allows you to 
 protect one or more of your pages with a username and password extracted (and compared) from a table in a database.
 
 ***IMPORTANT*** Right now it only works with MySQL, sorry.
