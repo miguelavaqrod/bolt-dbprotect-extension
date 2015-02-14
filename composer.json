@@ -1,8 +1,8 @@
 {
-    "name": "bolt/dbprotect",
+    "name": "miguelavaqrod/dbprotect",
     "description": "A small extension based in passwordprotect extension to protect pages on your site, when using {{ dbprotect() }} in your templates.",
     "type": "bolt-extension",
-    "keywords": ["password"],
+    "keywords": ["protect"],
     "require": {
         "bolt/bolt": ">=2.0.0,<3.0.0"
     },
