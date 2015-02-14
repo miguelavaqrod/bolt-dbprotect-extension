@@ -21,7 +21,7 @@ page, where they will be asked to provide the password.
 
 See `config.yml` for the options.
 
-**Note:** This 'protection' should not be considered 'secure'. Credebtials will be sent
+**Note:** This 'protection' should not be considered 'secure'. Credentials will be sent
 over the internet in plain text, so it can be intercepted if people use it on a
 public WiFi network, or something like that.
 
@@ -30,7 +30,7 @@ The 'credentials' page
 The page you've set as the `redirect:` option in the `config.yml` can be any Bolt
 page you want. It can be a normal page, where you briefly describe why the user was
 suddenly redirected here. And, perhaps you can give instructions on how to acquire
-the password, if they don't have it. When the user provides the correct password,
+the password, if they don't have it. When the user provides the correct username and password,
 they will automatically be redirected back to the page they came from.
 
 To insert the actual form with the username and password fields, simply use:
