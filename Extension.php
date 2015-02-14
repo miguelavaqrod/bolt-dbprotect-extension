@@ -7,7 +7,7 @@ class Extension extends \Bolt\BaseExtension
 {
     public function getName()
     {
-        return "DB Protect";
+        return "DatabaseProtect";
     }
 
     public function initialize()
