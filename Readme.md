@@ -39,3 +39,5 @@ the page somewhere.
 
 **Tip:** do not be a dumbass and require a login on the page you're redirecting to!
 Your visitors will get stuck in an endless loop, if you do.
+
+**Note** You also can set a master username and password to bypass database checking with that credentials.
