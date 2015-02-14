@@ -1,0 +1,24 @@
+{
+    "name": "bolt/dbprotect",
+    "description": "A small extension based in passwordprotect extension to protect pages on your site, when using {{ dbprotect() }} in your templates.",
+    "type": "bolt-extension",
+    "keywords": ["password"],
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Angel Vaquero",
+            "email": "miguela.vaqrod@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "init.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\miguelavaqrod\\dbprotect\\": ""
+        }
+    }
+}
