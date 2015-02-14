@@ -13,6 +13,8 @@ username: admin
 # Master password
 password: password
 
+submit_text: Login
+
 # The page to redirect people to, when they're not logged in.
 # note: this is NOT an URL, but must be a contenttype/slug combination.
 redirect: 'page/access-denied'
