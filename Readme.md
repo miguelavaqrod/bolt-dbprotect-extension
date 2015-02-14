@@ -5,7 +5,7 @@ First, thanks a lot Bolt staff for creating Password Protect extension.
 This is just a fork of that extension so it can serve my own needs.
 
 The "DB Protect extension" is a small extension that allows you to 
-protect one or more of your pages with a username and password extracted (and compared) from a table database.
+protect one or more of your pages with a username and password extracted (and compared) from a table in a database.
 Use it by simply placing the following in your template:
 
     {{ dbprotect() }}
@@ -30,7 +30,7 @@ suddenly redirected here. And, perhaps you can give instructions on how to acqui
 the password, if they don't have it. When the user provides the correct password,
 they will automatically be redirected back to the page they came from.
 
-To insert the actual form with the password field, simply use:
+To insert the actual form with the username and password fields, simply use:
 
     {{ dbform() }}
 
