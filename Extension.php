@@ -127,6 +127,7 @@ class Extension extends \Bolt\BaseExtension
 
         // Render the form, and show it it the visitor.
         $this->app['twig.loader.filesystem']->addPath(__DIR__);
+        $this->app['twig']->addGlobal("submit", $this->config['submit_text']);
         $html = $this->app['twig']->render('assets/passwordform.twig', array('form' => $form->createView()));
 
         return new \Twig_Markup($html, 'UTF-8');
