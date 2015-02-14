@@ -1,0 +1,24 @@
+
+dbhost: localhost
+dbname: dbname
+dbuser: user
+dbpass: password
+dbtable: users
+dbfld1: user
+dbfld2: pass
+
+# Master user
+username: admin
+
+# Master password
+password: password
+
+# The page to redirect people to, when they're not logged in.
+# note: this is NOT an URL, but must be a contenttype/slug combination.
+redirect: 'page/acces-denied'
+
+message_correct: "Thank you for providing the correct credentials. You now have access to the protected pages."
+message_wrong: "The credentials were not correct. Try again."
+
+# Don't change this, unless you like living on the edge.
+form: assets/form.twig
