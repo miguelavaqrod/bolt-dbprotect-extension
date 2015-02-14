@@ -30,7 +30,7 @@ The 'credentials' page
 The page you've set as the `redirect:` option in the `config.yml` can be any Bolt
 page you want. It can be a normal page, where you briefly describe why the user was
 suddenly redirected here. And, perhaps you can give instructions on how to acquire
-the password, if they don't have it. When the user provides the correct username and password,
+credentials, if they don't have it. When the user provides the correct username and password,
 they will automatically be redirected back to the page they came from.
 
 To insert the actual form with the username and password fields, simply use:
