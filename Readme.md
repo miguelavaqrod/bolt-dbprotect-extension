@@ -1,8 +1,11 @@
 DB Protect extension
 =========================
 
+First, thanks a lot Bolt staff for creating Password Protect extension.
+This is just a fork of that extension so it can serve my own needs.
+
 The "DB Protect extension" is a small extension that allows you to 
-protect one or more of your pages with a username and password extracted form a table database.
+protect one or more of your pages with a username and password extracted (and compared) from a table database.
 Use it by simply placing the following in your template:
 
     {{ dbprotect() }}
