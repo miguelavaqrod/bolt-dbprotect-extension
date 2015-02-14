@@ -1,6 +1,6 @@
 {
     "name": "miguelavaqrod/dbprotect",
-    "description": "A small extension based in passwordprotect extension to protect pages on your site, when using {{ dbprotect() }} in your templates.",
+    "description": "An extension based in passwordprotect to protect pages on your site, querying a database for  granted users",
     "type": "bolt-extension",
     "keywords": ["protect"],
     "require": {
