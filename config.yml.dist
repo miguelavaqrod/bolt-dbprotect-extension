@@ -15,7 +15,7 @@ password: password
 
 # The page to redirect people to, when they're not logged in.
 # note: this is NOT an URL, but must be a contenttype/slug combination.
-redirect: 'page/acces-denied'
+redirect: 'page/access-denied'
 
 message_correct: "Thank you for providing the correct credentials. You now have access to the protected pages."
 message_wrong: "The credentials were not correct. Try again."
